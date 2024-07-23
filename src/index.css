@@ -1,13 +1,142 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Regular Fonts */
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-CompactRegular-BF63ec3d6fe9bb0.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-CondensedRegular-BF63ec3d6e32187.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Bold Fonts */
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-Bold-BF63ec3d703f3cc.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-CondensedBold-BF63ec3d6fd726d.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Light Fonts */
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-CompactLight-BF63ec3d6eb994a.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-CondensedLight-BF63ec3d6ff176e.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Medium Fonts */
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-CompactMedium-BF63ec3d6d7e017.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-CondensedMedium-BF63ec3d709e161.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Thin Fonts */
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-CompactThin-BF63ec3d6fc8c01.otf")
+    format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-CondensedThin-BF63ec3d6da734a.otf")
+    format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Wide Fonts */
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-WideBold-BF63ec3d6c2e770.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-WideLight-BF63ec3d6c2eaed.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-WideMedium-BF63ec3d6e7a65f.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-WideRegular-BF63ec3d6e7e6cd.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neusa Next";
+  src: url("../public/neusa-next-font-family/NeusaNextStdTrial-WideThin-BF63ec3d6ea8ea4.otf")
+    format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Apply to body */
+body {
+  font-family: "Neusa Next", sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #000000 0%, #004e97 100%);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
