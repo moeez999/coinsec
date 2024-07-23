@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="mt-16 px-4 md:px-6 lg:px-10  ">
       <div className="flex flex-col md:flex-row justify-between ">
-        <div className="flex justify-center md:justify-start">
+        <div className="flex justify-center md:block">
           <img src="logo.png" alt="" />
         </div>
         <div className="block md:hidden">
