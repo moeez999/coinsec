@@ -39,31 +39,31 @@ export default function NavBar() {
             </div>
             <div className="hidden sm:flex sm:gap-x-4">
               <a
-                href="#"
+                href="/hello"
                 className="text-primary-light px-3 py-2 rounded-md text-base font-medium"
               >
                 Blockchain Explorer
               </a>
               <a
-                href="#"
+                href="/hello"
                 className="text-primary-light px-3 py-2 rounded-md text-base font-medium"
               >
                 Our Network
               </a>
               <a
-                href="#"
+                href="/hello"
                 className="text-primary-light px-3 py-2 rounded-md text-base font-medium"
               >
                 Status
               </a>
               <a
-                href="#"
+                href="/hello"
                 className="text-primary-light px-3 py-2 rounded-md text-base font-medium"
               >
                 Mining Pool
               </a>
               <a
-                href="#"
+                href="/hello"
                 className="text-primary-light px-3 py-2 rounded-md text-base font-medium"
               >
                 Whitepaper
@@ -82,31 +82,31 @@ export default function NavBar() {
         <div className="sm:hidden" id="mobile-menu">
           <div className="flex flex-col px-2 pt-2 pb-3 space-y-1">
             <a
-              href="#"
+              href="/hello"
               className="text-primary-light px-3 py-2 rounded-md text-base font-medium"
             >
               Blockchain Explorer
             </a>
             <a
-              href="#"
+              href="/hello"
               className="text-primary-light px-3 py-2 rounded-md text-base font-medium"
             >
               Our Network
             </a>
             <a
-              href="#"
+              href="/hello"
               className="text-primary-light px-3 py-2 rounded-md text-base font-medium"
             >
               Status
             </a>
             <a
-              href="#"
+              href="/hello"
               className="text-primary-light px-3 py-2 rounded-md text-base font-medium"
             >
               Mining Pool
             </a>
             <a
-              href="#"
+              href="/hello"
               className="text-primary-light px-3 py-2 rounded-md text-base font-medium"
             >
               Whitepaper
