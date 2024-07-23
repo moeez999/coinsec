@@ -41,6 +41,7 @@ export default function ESGSection() {
           efficient blockchain infrastructure.
         </p>
       </div>
+
       <div className="flex justify-center my-8">
         <img className="w-full md:w-[75%]" src="esg2.png" alt="" />
       </div>
